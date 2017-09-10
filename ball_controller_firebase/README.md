@@ -4,4 +4,4 @@ TCP/IP Raspberry Pi controller for the Ball Drop Game http://tigoe.github.io/Bal
 
 Multiple users help "one user" move the controller.
 
-Requires Firebase /config.js keys
+- https://goo.gl/isKqvi (Phone Controller)
