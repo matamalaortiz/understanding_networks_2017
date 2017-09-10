@@ -14,7 +14,7 @@ function leftDown(e) {
     ref.setWithPriority({left: 1},0);
     console.log("Left Pressed");
   }
-  // e.preventDefault();
+  e.preventDefault();
   return false;
 }
 
@@ -33,7 +33,7 @@ function rightDown(e) {
     ref.setWithPriority({right: 1},0);
     console.log("Right Pressed");
   }
-  // e.preventDefault();
+  e.preventDefault();
   return false;
 }
 
@@ -52,7 +52,7 @@ function upDown(e) {
     ref.setWithPriority({up: 1},0);
     console.log("Up Pressed");
   }
-  // e.preventDefault();
+  e.preventDefault();
   return false;
 }
 
@@ -64,14 +64,14 @@ down = false;
   }
 }
 
-// Move Up
+// Move Down
 function downDown(e) {
   down = true;
   if (down === true){
     ref.setWithPriority({down: 1},0);
     console.log("Up Pressed");
   }
-  // e.preventDefault();
+  e.preventDefault();
   return false;
 }
 
