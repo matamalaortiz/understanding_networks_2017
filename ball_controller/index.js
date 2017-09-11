@@ -3,11 +3,11 @@
 const teletype = require('teletype')
 const client = teletype('172.22.151.123', 8080)
 var Gpio = require('onoff').Gpio,
-  LEFT_PIN = new Gpio(5, 'in', 'both'),
-  RIGHT_PIN = new Gpio(6, 'in', 'both'),
-  DOWN_PIN = new Gpio(13, 'in', 'both'),
-  UP_PIN = new Gpio(19, 'in', 'both'),
-  X_PIN = new Gpio(26, 'in', 'both');
+  left_pin = new Gpio(5, 'in', 'both'),
+  right_pin = new Gpio(6, 'in', 'both'),
+  down_pin = new Gpio(2, 'in', 'both'),
+  up_pin = new Gpio(8, 'in', 'both'),
+  x_pin = new Gpio(4, 'in', 'both');
 
 
 let msg_from_server = /(minimum 2 players)/
@@ -15,7 +15,7 @@ let msg_from_server = /(minimum 2 players)/
 client.readUntil(msg_from_server).then(response=>{
   console.log("connected");
 
-  LEFT_PIN.watch(function (err, value) {
+  left_pin.watch(function (err, value) {
     if (err) {
       throw err;
     }
@@ -25,7 +25,7 @@ client.readUntil(msg_from_server).then(response=>{
     }
   });
 
-  RIGHT_PIN.watch(function (err, value) {
+  right_pin.watch(function (err, value) {
     if (err) {
       throw err;
     }
@@ -35,7 +35,7 @@ client.readUntil(msg_from_server).then(response=>{
     }
   });
 
-  DOWN_PIN.watch(function (err, value) {
+  down_pin.watch(function (err, value) {
     if (err) {
       throw err;
     }
@@ -45,7 +45,7 @@ client.readUntil(msg_from_server).then(response=>{
     }
   });
 
-  UP_PIN.watch(function (err, value) {
+  up_pin.watch(function (err, value) {
     if (err) {
       throw err;
     }
@@ -55,7 +55,7 @@ client.readUntil(msg_from_server).then(response=>{
     }
   });
 
-  X_PIN.watch(function (err, value) {
+  x_pin.watch(function (err, value) {
     if (err) {
       throw err;
     }
