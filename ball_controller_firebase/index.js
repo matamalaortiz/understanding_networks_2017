@@ -31,19 +31,19 @@ client.readUntil(msg_from_server).then(response=>{
   ref.on('value', function(snapshot) {
   var value = snapshot.val();
     if (value.left === 1) {
-      // client.exec('l\n');
+      client.exec('l\n');
       console.log('LEFT');
     }
     if (value.right === 1) {
-      // client.exec('r\n');
+      client.exec('r\n');
       console.log('RIGHT');
     }
     if (value.up === 1) {
-      // client.exec('u\n');
+      client.exec('u\n');
       console.log('UP');
     }
     if (value.down === 1) {
-      // client.exec('d\n');
+      client.exec('d\n');
       console.log('DOWN');
     }
   });
