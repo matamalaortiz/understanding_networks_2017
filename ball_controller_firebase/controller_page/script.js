@@ -7,7 +7,7 @@ var up = document.getElementById("down");
 var down = false;
 
 (document).ready(function() {
-  $("a").on("click touchend", function(e) {
+  $("button").on("click touchend", function(e) {
     var el = $(this);
     var link = el.attr("href");
     window.location = link;
