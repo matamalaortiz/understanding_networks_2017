@@ -1,5 +1,5 @@
 {
-  "name": "traceroute map",
+  "name": "tracemusic",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,11 @@
   },
   "author": "",
   "license": "ISC",
+  "bin": {
+  "tracemusic": "./index.js"
+  },
   "dependencies": {
+    "cli-color": "^1.2.0",
     "iplocation": "^5.0.0",
     "nodejs-traceroute": "^1.1.1",
     "traceroute": "^1.0.0",
