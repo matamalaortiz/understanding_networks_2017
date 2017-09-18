@@ -1,8 +1,28 @@
-# Traceroute
+# Traceroute video music
 
-A traceroute tool that scan each city where the network hop and return a popular music video from the city where the router is located.
+A Nodejs tool to traceroute a website that returns the most popular videos from the city were the connection hop.
 
 ## Requirements
 
 - [MVM](https://mpv.io/installation/)
 - Youtube Api Key
+
+## Run
+
+```bash
+npm install
+
+```
+### Create a keys.js fail and include this:
+
+```ts
+module.exports = {
+	youtube: {
+	api_key: 'XXXXXXXX YOUR API KEY XXXXXXXXXXXXX',
+	}
+};
+```
+
+```bash
+node index.js url
+```

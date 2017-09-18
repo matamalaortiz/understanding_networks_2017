@@ -1,7 +1,7 @@
 {
-  "name": "tracemusic",
+  "name": "tracebymusic",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Nodejs tool to traceroute a website that returns the most popular videos from the city were the connection hop",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,6 +17,6 @@
     "iplocation": "^5.0.0",
     "nodejs-traceroute": "^1.1.1",
     "traceroute": "^1.0.0",
-    "youtube-search": "^1.0.10"
+    "youtube-search": "^1.0.10",
   }
 }
