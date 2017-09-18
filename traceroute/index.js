@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const Traceroute = require('nodejs-traceroute');
 const { exec } = require('child_process');
 const keys = require('./keys.js');

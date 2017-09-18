@@ -7,13 +7,9 @@ A Nodejs tool to traceroute a website that returns the most popular videos from 
 - [MVM](https://mpv.io/installation/)
 - Youtube Api Key
 
-## Run
+## Installation
 
-```bash
-npm install
-
-```
-### Create a keys.js fail and include this:
+• Create a ./keys.js file and include:
 
 ```ts
 module.exports = {
@@ -22,7 +18,10 @@ module.exports = {
 	}
 };
 ```
-
+run:
 ```bash
-node index.js url
+npm install
+
+npm run trace url 
+
 ```
