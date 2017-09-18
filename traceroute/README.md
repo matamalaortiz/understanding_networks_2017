@@ -18,10 +18,11 @@ module.exports = {
 	}
 };
 ```
-run:
+• run:
+
 ```bash
 npm install
 
-npm run trace url 
+npm run trace url
 
 ```
