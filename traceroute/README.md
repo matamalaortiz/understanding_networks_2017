@@ -1,6 +1,6 @@
 # Traceroute video music
 
-A Nodejs tool to traceroute a website that returns the most popular videos from the city were the connection hop.
+A Nodejs tool to traceroute a website that returns the most popular video song from the location were the connection hop.
 
 ![](./demo.gif)
 
