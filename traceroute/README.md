@@ -2,6 +2,9 @@
 
 A Nodejs tool to traceroute a website that returns the most popular videos from the city were the connection hop.
 
+![](./demo.gif)
+
+
 ## Requirements
 
 - [MVM](https://mpv.io/installation/)

@@ -79,7 +79,7 @@ function writeAndPlay(){
     var videosLinks = videos.join('\n');
     fs.writeFile( "videosLinks.txt",videosLinks, "utf8" );
 
-    var yt = "mpv --start=10 --end=35 --playlist videosLinks.txt";
+    var yt = "mpv --start=15 --end=30 --playlist videosLinks.txt";
 
     exec(yt, (error, stdout, stderr) => {
         if (error) {
