@@ -12,5 +12,5 @@ A Nodejs tool to traceroute a website that returns the most popular videos from 
 - [traceroute](/traceroute)
 
 **– Packet Sniffing:**
-A cli tool that warn me everytime I submit a POST request on an unsecure website that I host.
+A cli tool that warn me every time I submit a POST request on an unsecure website that I host.
 - [packet](/packet)
