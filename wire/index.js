@@ -1,6 +1,7 @@
 var clc = require('cli-color');
 var fs = require('fs');
 const exec = require('child_process').exec;
+const keys = require('./keys.js');
 let data = ''
 
 fs.readFile( 'is.txt','utf8', function ( err, data ) {
@@ -12,7 +13,7 @@ Warning - What have you just done?! ***************************`
     ));
 
     let content = "'Content-Type: application/json' -d " + "'{" + '"value1"' + ":" + '"' + "it is time to add an SSL Certificate to your websites" + '"' + "}' ";
-    let key = "IFTTT-KEY";
+    let key = keys.ifttt.api_key;
     let url = "https://maker.ifttt.com/trigger/call/with/key/" + key;
     let requestWebHook = "curl -X POST -H " + content + url;
 
