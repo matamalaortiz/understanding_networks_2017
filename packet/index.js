@@ -12,7 +12,7 @@ fs.readFile( 'is.txt','utf8', function ( err, data ) {
 Warning - What have you just done?! ***************************`
     ));
 
-    let content = "'Content-Type: application/json' -d " + "'{" + '"value1"' + ":" + '"' + "it is time to add an SSL Certificate to your websites" + '"' + "}' ";
+    let content = "'Content-Type: application/json' -d " + "'{" + '"value1"' + ":" + '"' + "you have not add https to your websites yet" + '"' + "}' ";
     let key = keys.ifttt.api_key;
     let url = "https://maker.ifttt.com/trigger/call/with/key/" + key;
     let requestWebHook = "curl -X POST -H " + content + url;
