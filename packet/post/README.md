@@ -16,8 +16,8 @@ The bash script is using the following command.
 
 Which is scanning into my packets and every time it hits the IP address of my shared hosting and found a POST request on port 80 it saves it to a `.txt` file. After that, it runs a Nodejs script which watches the `.txt` file and if it founds something it fires a webhook (or a POST request) to IFTTT, who handle the call event.
 
-[!Check the Video here or click on the image below](https://www.youtube.com/watch?v=Y-12mJWEUP0&feature=youtu.be)
+[Check the Video here or click on the image below => You Tube](https://www.youtube.com/watch?v=Y-12mJWEUP0&feature=youtu.be)
 
-[![You Tube video here](../img.png)](https://www.youtube.com/watch?v=Y-12mJWEUP0&feature=youtu.be)
+[![You Tube video here ](../img.png)](https://www.youtube.com/watch?v=Y-12mJWEUP0&feature=youtu.be)
 
 [See the code here](https://github.com/matamalaortiz/understanding_networks_2017/tree/master/packet)
