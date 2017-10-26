@@ -1,4 +1,4 @@
-## Wifi traffic analysis and my computer calling to remind me that I should add a SSL certificate.  
+## Wifi traffic analysis and my computer calling to remind me that I should add an SSL certificate.  
 
 During the class Understanding Networks at ITP, New York University, we covered how to analyze packets over our network traffic. Some of the tools we went through were [Wireshark](https://www.wireshark.org/) and [Herbivore](https://github.com/samatt/herbivore/releases). Although I ended up using Tshark, which is basically Wireshark for the command line.
 
