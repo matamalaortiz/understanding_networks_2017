@@ -1,3 +1,5 @@
+## Wifi Traffic packets analyzing and my computer calling at me to warn me.  
+
 During the class Understanding Networks at ITP, New York University, we covered how to analyze packets over our network traffic. Some of the tools we went through were [Wireshark](https://www.wireshark.org/) and [Herbivore](https://github.com/samatt/herbivore/releases). Although I ended up using Tshark, which is basically Wireshark for the command line.
 
 I started analyzing using the default command `$ tshark`, but realized the output was too overwhelming to understand what was going on or to notice a specific pattern.
