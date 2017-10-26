@@ -1,4 +1,5 @@
-A cli tool that warn me every time I submit a POST request on an unsecure website that I host.
+A tool that calls me to remind me that I have to add SSL certificates to the http websites I host. 
+
 
 ![](./img.png)
 
